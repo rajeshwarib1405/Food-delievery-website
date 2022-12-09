@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height: 59px;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    margin: 20px 34px;
+}
+
+#logo img{
+    height: 150px;
+}
+
+
+
+#navbar ul{
+    display: flex;
+}
+#navbar ::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+#navbar ul{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
